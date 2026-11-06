@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop – VISER</title>
+<meta name="description" content="VISER – everyday essentials, streetwear and footwear from Manipur.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/shop.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page="shop" data-scope="all">
+<div id="site-header"></div>
+<main id="main">
+<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <span>Shop</span></nav>
+<div class="page-title"><h1>Shop</h1><p class="sec-sub" style="max-width:60ch">Everything VISER, in one place. Filter by category, size, colour and price, or sort by what’s new.</p></div></div>
+<div class="wrap shop-wrap" id="shop-root"><span id="grid-top"></span>
+<div class="shop-layout"><aside class="filters" id="filters" aria-label="Filters"></aside>
+<div class="shop-main"><div class="toolbar"><p id="count" aria-live="polite"></p><div class="tb-r"><button id="filterBtn" type="button">Filters</button><label class="sort-sel">Sort by <select id="sort"><option value="featured">Featured</option><option value="newest">Newest</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option></select></label></div></div>
+<div class="chips" id="chips" hidden></div><div class="pgrid" id="grid"></div>
+<div class="more"><button class="btn ghost" id="loadMore" type="button">Load more</button></div></div></div></div>
+</main>
+<div id="site-footer"></div>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/main.js"></script>
+<script src="js/shop.js"></script>
+</body>
+</html>
